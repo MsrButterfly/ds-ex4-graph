@@ -28,7 +28,6 @@ public:
     IPv4Address operator++() {
         IPv4Address ip = *this;
         ++(*this);
-        std::cout << "!!!" << std::endl;
         return ip;
     }
     IPv4Address &operator=(const IPv4Address &ip) {
