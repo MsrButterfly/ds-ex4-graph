@@ -6,7 +6,7 @@
 #include <stack>
 #include <algorithm>
 
-template <class Key, typename Value>
+template <typename Key, typename Value>
 class UDG {
 private:
     class E {
