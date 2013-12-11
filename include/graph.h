@@ -76,10 +76,10 @@ public:
             return false;
         }
         v1 -> second.es.remove_if([k2](const E & e) {
-            return e.k == std::move(k2);
+            return e.k == k2;
         });
         v2 -> second.es.remove_if([k1](const E & e) {
-            return e.k == std::move(k1);
+            return e.k == k1;
         });
         return true;
     }
