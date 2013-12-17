@@ -33,7 +33,7 @@ public:
     }
     std::size_t erase(const Key &k) {
         for (const auto &e : vs[k].es) {
-            vs[e.k].es.remove_if([k](const E & e) {
+            vs[e.k].es.remove_if([k](const E &e) {
                 return e.k == k;
             });
         }
