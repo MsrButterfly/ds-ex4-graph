@@ -51,7 +51,7 @@ int main(int argc, char const *argv[]) {
     graph.link('D', 'F', 8);
     graph.link('L', 'N', 5);
     
-    graph.showAdjList();
+    // graph.showAdjList();
     
     std::cout << std::endl;
     
@@ -95,7 +95,7 @@ int main(int argc, char const *argv[]) {
 
     graph.erase('D');
     graph.unlink('A', 'P');
-    graph.showAdjList();
+    // graph.showAdjList();
     
     return 0;
 }
